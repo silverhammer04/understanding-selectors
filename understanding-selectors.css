@@ -1,0 +1,100 @@
+ 
+
+body {background:url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/background-of-green-and-healthy-grass-royalty-free-image-1586800097.jpg?crop=0.68819xw:1xh;center,top&resize=480:*) ;
+    font-family: Helvetica, Ariel, sans-serif;
+    }
+ul {
+    margin: 3em auto;
+    margin-top: 10%;
+    width: 300px;
+    border: 1px solid;
+    border-radius: 1em;
+    padding: 0;
+    background-color: white;
+    transform:rotate(5deg);
+    }
+    
+ul :first-child span {
+        font-size: 3.2em;
+        display: block;        
+        font-weight: 600;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+       }
+
+    li {
+        list-style: none;
+        list-style-position:inside;
+        text-align: center;
+        }
+        ul :first-child {
+            background-color: tomato;
+            color: white;
+            border-radius: 1em 1em 0 0;
+            padding: 0.5em 0;
+            letter-spacing: 0.2em;
+            }
+        
+        ul :last-child {
+            background-color: tomato; 
+            height: 1em;
+            border-radius: 0 0 1em 1em;
+            padding: 0.1em 0;
+            }
+        
+        .name{
+            color:blue;
+            font-size: 2em;
+            font-family: cursive;
+            padding: 0.2em;
+            }
+            
+        .hi{
+            margin: 15px auto;
+            margin-top: 15%;
+            width: 300px;
+            border: 1px solid red;
+            border-radius: 12px;
+            background-color: red;
+            text-align: center;
+            transform: rotate(-9deg);
+            box-shadow: 5px 5px 5px 5px rgb(41, 41, 41) ;
+            }
+        .yo .who .rank .blank{
+            text-align: center;
+        }
+        .yo{
+            font-size: 3em;
+            display: block;
+            padding-top: 0.1em;
+            padding-bottom: 00em;
+            margin: 0em;
+            letter-spacing: 0.3em;
+            font-weight: 500;
+            background-color: navy;
+            border-radius: 12px 12px 0px 0px;
+            }
+        .who{
+            padding-top: 0.1em;
+            padding-bottom: 0.1em;
+            margin: 0em;
+            background-color: navy
+            }
+        .rank{
+            font-size: 2.1em;
+            padding-top: 0em;
+            padding-bottom: 0em;
+            margin: 0.2em;
+            color: goldenrod;
+            }
+        .blank{
+            background-color: navy;
+            margin-bottom: 0em;
+            border-radius: 0px 0px 12px 12px;
+            }
+        a:link{color: rgb(148, 3, 3);
+           }
+
+        a:visited{color: rgb(148, 3, 3)} 
+        
+        a:hover{color: goldenrod}
